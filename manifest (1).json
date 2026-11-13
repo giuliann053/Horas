@@ -1,0 +1,32 @@
+{
+  "name": "Mis Horas Gym",
+  "short_name": "Horas Gym",
+  "start_url": "./index.html",
+  "display": "fullscreen",
+  "background_color": "#160e25",
+  "theme_color": "#24143d",
+  "description": "Control de horas trabajadas y sueldo",
+  "id": "Mis Horas Gym",
+  "dir": "auto",
+  "scope": "./index.html",
+  "lang": "en",
+  "orientation": "natural",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "iarc_rating_id": "Mis Horas Gym",
+  "prefer_related_applications": true,
+  "categories": [
+    "multimedia design",
+    "utilities"
+  ],
+  "share_target": {
+    "method": "GET",
+    "action": "/Share-horas",
+    "params": {
+      "title": "Contador de horas de trabajo",
+      "text": "Cuentas claras",
+      "url": "https://giuliann053.github.io/Horas/"
+    }
+  }
+}
